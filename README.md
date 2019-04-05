@@ -1,6 +1,6 @@
-# ![proteus](https://rawgit.com/src-d/proteus/master/proteus.svg)
+# ![proteus](https://rawgit.com/davidp94/proteus/master/proteus.svg)
 
-[![GoDoc](https://godoc.org/github.com/src-d/proteus?status.svg)](https://godoc.org/github.com/src-d/proteus) [![Build Status](https://travis-ci.org/src-d/proteus.svg?branch=master)](https://travis-ci.org/src-d/proteus) [![codecov](https://codecov.io/gh/src-d/proteus/branch/master/graph/badge.svg)](https://codecov.io/gh/src-d/proteus) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Go Report Card](https://goreportcard.com/badge/github.com/src-d/proteus)](https://goreportcard.com/report/github.com/src-d/proteus) [![codebeat badge](https://codebeat.co/badges/976ff535-c79b-429d-b35c-888a048a3201)](https://codebeat.co/projects/github-com-src-d-proteus)
+[![GoDoc](https://godoc.org/github.com/davidp94/proteus?status.svg)](https://godoc.org/github.com/davidp94/proteus) [![Build Status](https://travis-ci.org/davidp94/proteus.svg?branch=master)](https://travis-ci.org/davidp94/proteus) [![codecov](https://codecov.io/gh/davidp94/proteus/branch/master/graph/badge.svg)](https://codecov.io/gh/davidp94/proteus) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Go Report Card](https://goreportcard.com/badge/github.com/davidp94/proteus)](https://goreportcard.com/report/github.com/davidp94/proteus) [![codebeat badge](https://codebeat.co/badges/976ff535-c79b-429d-b35c-888a048a3201)](https://codebeat.co/projects/github-com-src-d-proteus)
 
 [Proteus](https://en.wikipedia.org/wiki/Proteus) /proʊtiəs/ is a tool to generate protocol buffers version 3 compatible `.proto` files from your Go structs, types and functions.
 
@@ -18,7 +18,7 @@ You can read more about the motivations behind building proteus in [this blog po
 ### Install
 
 ```
-go get -v gopkg.in/src-d/proteus.v1/...
+go get -v gopkg.in/davidp94/proteus.v1/...
 ```
 
 ### Requirements
@@ -54,7 +54,7 @@ proteus rpc -p my/go/package \
         -p my/other/go/package
 ```
 
-**NOTE:** Of course, if the defaults don't suit your needs, until proteus is extensible via plugins, you can hack together your own generator command using the provided components. Check out the [godoc documentation of the package](http://godoc.org/github.com/src-d/proteus).
+**NOTE:** Of course, if the defaults don't suit your needs, until proteus is extensible via plugins, you can hack together your own generator command using the provided components. Check out the [godoc documentation of the package](http://godoc.org/github.com/davidp94/proteus).
 
 ### Generate protobuf messages
 
@@ -306,7 +306,7 @@ The following is a list of known limitations and the current state of them.
 
 ### Contribute
 
-If you are interested on contributing to **proteus**, open an [issue](https://github.com/src-d/proteus/issues) explaining which missing functionality you want to work in, and we will guide you through the implementation, and tell you beforehand if that is a functionality we might consider merging in the first place.
+If you are interested on contributing to **proteus**, open an [issue](https://github.com/davidp94/proteus/issues) explaining which missing functionality you want to work in, and we will guide you through the implementation, and tell you beforehand if that is a functionality we might consider merging in the first place.
 
 ### License
 

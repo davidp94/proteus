@@ -179,7 +179,7 @@ var DefaultMappings = TypeMappings{
 }
 
 // ToGoOutPath returns the set of import mappings for the --go_out family of options.
-// For more info see src-d/proteus#41
+// For more info see davidp94/proteus#41
 func (t TypeMappings) ToGoOutPath() string {
 	var strs []string
 	var keys []string

@@ -1,10 +1,10 @@
 package proteus
 
 import (
-	"gopkg.in/src-d/proteus.v1/protobuf"
-	"gopkg.in/src-d/proteus.v1/resolver"
-	"gopkg.in/src-d/proteus.v1/rpc"
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"gopkg.in/davidp94/proteus.v1/protobuf"
+	"gopkg.in/davidp94/proteus.v1/resolver"
+	"gopkg.in/davidp94/proteus.v1/rpc"
+	"gopkg.in/davidp94/proteus.v1/scanner"
 )
 
 // Options are all the available options to configure proto generation.

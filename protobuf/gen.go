@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/proteus.v1/report"
+	"gopkg.in/davidp94/proteus.v1/report"
 )
 
 // Generator is in charge of generating the .proto files and write them

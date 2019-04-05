@@ -1,4 +1,4 @@
-package report // import "gopkg.in/src-d/proteus.v1/report"
+package report // import "gopkg.in/davidp94/proteus.v1/report"
 
 import (
 	"fmt"
