@@ -7,7 +7,7 @@ import (
 	"gopkg.in/davidp94/proteus.v1/protobuf"
 	"github.com/stretchr/testify/assert"
 
-	"gopkg.in/src-d/go-parse-utils.v1"
+	"gopkg.in/davidp94/go-parse-utils.v1"
 )
 
 func TestContext_isNameDefined(t *testing.T) {

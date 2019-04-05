@@ -11,8 +11,6 @@ import (
 	"sync"
 
 	"gopkg.in/davidp94/proteus.v1/report"
-
-	"gopkg.in/src-d/go-parse-utils.v1"
 )
 
 var goPath = os.Getenv("GOPATH")

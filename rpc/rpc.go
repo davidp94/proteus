@@ -12,7 +12,7 @@ import (
 	"gopkg.in/davidp94/proteus.v1/protobuf"
 	"gopkg.in/davidp94/proteus.v1/report"
 
-	"gopkg.in/src-d/go-parse-utils.v1"
+	"gopkg.in/davidp94/go-parse-utils.v1"
 )
 
 // Generator generates implementations of an RPC server for a package.
